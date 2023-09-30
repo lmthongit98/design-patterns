@@ -4,18 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ffd486b4-07c2-45c2-abe5-7cc793bc5d30" name="Changes" comment="Visitor design pattern">
-      <change afterPath="$PROJECT_DIR$/src/main/java/creational/abstractfactory/Apple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/creational/abstractfactory/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/creational/abstractfactory/Iphone3G.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/creational/abstractfactory/Iphone4G.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/creational/abstractfactory/LoadFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/creational/abstractfactory/Mobile3GFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/creational/abstractfactory/Mobile4GFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/creational/abstractfactory/MobileFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/creational/abstractfactory/Nokia.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/creational/abstractfactory/Nokia3G.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/creational/abstractfactory/Nokia4G.java" afterDir="false" />
+    <list default="true" id="ffd486b4-07c2-45c2-abe5-7cc793bc5d30" name="Changes" comment="abstract factory">
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/factorymethod/BillAmountCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/factorymethod/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/factorymethod/CommercialPlan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/factorymethod/CommercialPlanCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/factorymethod/DomesticPlan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/factorymethod/DomesticPlanCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/factorymethod/InstitutionPlanCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/factorymethod/InstitutionalPlan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/factorymethod/Plan.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,11 +55,12 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="creational.factorymethod" />
       <recent name="creational.abstractfactory" />
       <recent name="behavior.visitor.solution" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Client">
+  <component name="RunManager" selected="Application.creational.factorymethod.Client">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="creational.abstractfactory.Client" />
       <module name="design-patterns" />
@@ -101,8 +100,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="creational.factorymethod.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="creational.factorymethod.Client" />
+      <module name="design-patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="creational.factorymethod.DomesticPlanCalculter" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.creational.factorymethod.Client" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.behavior.visitor.solution.Demo" />
         <item itemvalue="Application.Demo" />
@@ -139,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1696072623717</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="abstract factory">
+      <created>1696098379155</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1696098379155</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -156,6 +176,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init commit" />
     <MESSAGE value="Visitor design pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Visitor design pattern" />
+    <MESSAGE value="abstract factory" />
+    <option name="LAST_COMMIT_MESSAGE" value="abstract factory" />
   </component>
 </project>
