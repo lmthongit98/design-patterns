@@ -4,13 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ffd486b4-07c2-45c2-abe5-7cc793bc5d30" name="Changes" comment="decorator example 1">
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavior/command/example1/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavior/command/example1/Fan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavior/command/example1/Remote.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavior/command/example1/TurnOffCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavior/command/example1/TurnOnCommand.java" afterDir="false" />
+    <list default="true" id="ffd486b4-07c2-45c2-abe5-7cc793bc5d30" name="Changes" comment="command">
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/observer/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/observer/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/observer/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/observer/VideoData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/observer/notifiers/EmailNotifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/observer/notifiers/PhoneNotifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/observer/notifiers/YoutubeNotifier.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/structural/decorator/example1/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/structural/decorator/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/structural/decorator/example1/DatabaseLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/structural/decorator/DatabaseLogger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/structural/decorator/example1/EmailLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/structural/decorator/EmailLogger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/structural/decorator/example1/FileLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/structural/decorator/FileLogger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/structural/decorator/example1/Logger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/structural/decorator/Logger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/structural/decorator/example1/LoggerDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/structural/decorator/LoggerDecorator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +29,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -60,6 +69,9 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="structural.observer.example1" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="behavior.command.example1" />
       <recent name="structural.decorator.example1" />
@@ -68,39 +80,26 @@
       <recent name="creational.abstractfactory" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.behavior.command.example1.Client">
+  <component name="RunManager" selected="Application.structural.observer.Client">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="structural.observer.example2.Client" />
+      <module name="design-patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="structural.observer.example2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="behavior.command.example1.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="behavior.command.example1.Client" />
       <module name="design-patterns" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="behavior.command.example1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="creational.factorymethod.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="creational.factorymethod.Client" />
-      <module name="design-patterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="creational.factorymethod.DomesticPlanCalculter" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="structural.bridge.example1.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="structural.bridge.example1.Client" />
-      <module name="design-patterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="structural.bridge.example1.abstractions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,13 +133,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="structural.observer.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="structural.observer.Client" />
+      <module name="design-patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="structural.observer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.structural.observer.Client" />
+        <item itemvalue="Application.Client" />
         <item itemvalue="Application.behavior.command.example1.Client" />
         <item itemvalue="Application.structural.decorator.example1.Client" />
         <item itemvalue="Application.structural.bridge.example2.Client" />
-        <item itemvalue="Application.structural.bridge.example1.Client" />
-        <item itemvalue="Application.creational.factorymethod.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -216,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1696331862223</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="command">
+      <created>1696337973676</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1696337973676</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -238,6 +257,7 @@
     <MESSAGE value="refactor bridge example 1" />
     <MESSAGE value="bridge example 2" />
     <MESSAGE value="decorator example 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="decorator example 1" />
+    <MESSAGE value="command" />
+    <option name="LAST_COMMIT_MESSAGE" value="command" />
   </component>
 </project>

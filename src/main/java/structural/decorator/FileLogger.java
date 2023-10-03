@@ -1,4 +1,4 @@
-package structural.decorator.example1;
+package structural.decorator;
 
 public class FileLogger implements Logger {
 
